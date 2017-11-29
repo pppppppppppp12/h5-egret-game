@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="IndexSkin" width="640" height="2600" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Scroller width="640" height="960" x="0" y="0" bounces="false">
+		<e:Group id="indexContainer">
+			<e:Image id="map1" source="worldmap_4_jpg" x="0" y="0" scaleX="1" scaleY="1" locked="true"/>
+			<e:Image id="map2" source="worldmap_3_jpg" x="0" y="640" scaleX="1" scaleY="1" locked="true"/>
+			<e:Image id="map3" source="worldmap_2_jpg" x="0" y="1278" scaleX="1" scaleY="1" locked="true"/>
+			<e:Image id="map4" source="worldmap_1_jpg" y="1918" x="0" scaleX="1" scaleY="1" locked="true"/>
+			<e:Image id="map5" source="worldmap_5_jpg" x="0" y="2558" scaleX="1" scaleY="1" locked="true"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

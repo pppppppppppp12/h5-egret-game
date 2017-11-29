@@ -1,0 +1,16 @@
+{
+  "15f60c32666": {
+    "path": "module\\loading\\ResLoading.ts",
+    "class": "ResLoading",
+    "parentPath": ""
+  },
+  "15f60ddec71": {
+    "path": "module\\loading\\ResLoading.ts",
+    "class": "ResLoading",
+    "parentPath": ""
+  },
+  "global": {
+    "globalRulerEnable": true,
+    "globalAdsorbEnable": true
+  }
+}

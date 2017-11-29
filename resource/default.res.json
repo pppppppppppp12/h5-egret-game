@@ -1,0 +1,381 @@
+{
+	"groups": [
+		{
+			"keys": "worldmap_1_jpg,worldmap_2_jpg,worldmap_3_jpg,worldmap_4_jpg,worldmap_5_jpg",
+			"name": "map"
+		},
+		{
+			"keys": "gon_add_png,npc_avt_png,selet_g_black_png,selet_g_blue_png,selet_g_green_png,selet_g_lock_png,selet_g_pink_png,selet_g_red_png,selet_g_yellow_png,selet_heart_png,selet_topbg_png,start_title_png,start_wintj_png",
+			"name": "index"
+		},
+		{
+			"keys": "circle_png",
+			"name": "preload"
+		},
+		{
+			"keys": "ap_png,bb_png,birl_png,birl2_png,could2_png,gp_png,l2_png,lm_png,output_beach_png,output_cloud_png,output_sea_png,output_sea1_png,output_sea2_png,output_ship1_png,output_ship2_png,start_dao_png,wm_png",
+			"name": "welcome"
+		},
+		{
+			"keys": "btn_close_png,open_btn_sound_off_png,open_btn_sound_png,open_btn_st_png,reborn_timer_png,selet_add_png,win_btn_menu_png,win_btn_next_png,win_btn_retry_png",
+			"name": "btn"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "cleanGame/map/worldmap_1.jpg",
+			"type": "image",
+			"name": "worldmap_1_jpg"
+		},
+		{
+			"url": "cleanGame/map/worldmap_2.jpg",
+			"type": "image",
+			"name": "worldmap_2_jpg"
+		},
+		{
+			"url": "cleanGame/map/worldmap_3.jpg",
+			"type": "image",
+			"name": "worldmap_3_jpg"
+		},
+		{
+			"url": "cleanGame/map/worldmap_4.jpg",
+			"type": "image",
+			"name": "worldmap_4_jpg"
+		},
+		{
+			"url": "cleanGame/map/worldmap_5.jpg",
+			"type": "image",
+			"name": "worldmap_5_jpg"
+		},
+		{
+			"url": "cleanGame/index/gon_add.png",
+			"type": "image",
+			"name": "gon_add_png"
+		},
+		{
+			"url": "cleanGame/index/npc_avt.png",
+			"type": "image",
+			"name": "npc_avt_png"
+		},
+		{
+			"url": "cleanGame/index/selet_g_black.png",
+			"type": "image",
+			"name": "selet_g_black_png"
+		},
+		{
+			"url": "cleanGame/index/selet_g_blue.png",
+			"type": "image",
+			"name": "selet_g_blue_png"
+		},
+		{
+			"url": "cleanGame/index/selet_g_green.png",
+			"type": "image",
+			"name": "selet_g_green_png"
+		},
+		{
+			"url": "cleanGame/index/selet_g_lock.png",
+			"type": "image",
+			"name": "selet_g_lock_png"
+		},
+		{
+			"url": "cleanGame/index/selet_g_pink.png",
+			"type": "image",
+			"name": "selet_g_pink_png"
+		},
+		{
+			"url": "cleanGame/index/selet_g_red.png",
+			"type": "image",
+			"name": "selet_g_red_png"
+		},
+		{
+			"url": "cleanGame/index/selet_g_yellow.png",
+			"type": "image",
+			"name": "selet_g_yellow_png"
+		},
+		{
+			"url": "cleanGame/index/selet_heart.png",
+			"type": "image",
+			"name": "selet_heart_png"
+		},
+		{
+			"url": "cleanGame/index/selet_topbg.png",
+			"type": "image",
+			"name": "selet_topbg_png"
+		},
+		{
+			"url": "cleanGame/index/start_title.png",
+			"type": "image",
+			"name": "start_title_png"
+		},
+		{
+			"url": "cleanGame/index/start_wintj.png",
+			"type": "image",
+			"name": "start_wintj_png"
+		},
+		{
+			"url": "cleanGame/com/circle.png",
+			"type": "image",
+			"name": "circle_png"
+		},
+		{
+			"url": "cleanGame/welcome/ap.png",
+			"type": "image",
+			"name": "ap_png"
+		},
+		{
+			"url": "cleanGame/welcome/bb.png",
+			"type": "image",
+			"name": "bb_png"
+		},
+		{
+			"url": "cleanGame/welcome/birl.png",
+			"type": "image",
+			"name": "birl_png"
+		},
+		{
+			"url": "cleanGame/welcome/birl2.png",
+			"type": "image",
+			"name": "birl2_png"
+		},
+		{
+			"url": "cleanGame/welcome/could2.png",
+			"type": "image",
+			"name": "could2_png"
+		},
+		{
+			"url": "cleanGame/welcome/gp.png",
+			"type": "image",
+			"name": "gp_png"
+		},
+		{
+			"url": "cleanGame/welcome/l2.png",
+			"type": "image",
+			"name": "l2_png"
+		},
+		{
+			"url": "cleanGame/welcome/lm.png",
+			"type": "image",
+			"name": "lm_png"
+		},
+		{
+			"url": "cleanGame/welcome/output_beach.png",
+			"type": "image",
+			"name": "output_beach_png"
+		},
+		{
+			"url": "cleanGame/welcome/output_cloud.png",
+			"type": "image",
+			"name": "output_cloud_png"
+		},
+		{
+			"url": "cleanGame/welcome/output_sea.png",
+			"type": "image",
+			"name": "output_sea_png"
+		},
+		{
+			"url": "cleanGame/welcome/output_sea1.png",
+			"type": "image",
+			"name": "output_sea1_png"
+		},
+		{
+			"url": "cleanGame/welcome/output_sea2.png",
+			"type": "image",
+			"name": "output_sea2_png"
+		},
+		{
+			"url": "cleanGame/welcome/output_ship1.png",
+			"type": "image",
+			"name": "output_ship1_png"
+		},
+		{
+			"url": "cleanGame/welcome/output_ship2.png",
+			"type": "image",
+			"name": "output_ship2_png"
+		},
+		{
+			"url": "cleanGame/welcome/start_dao.png",
+			"type": "image",
+			"name": "start_dao_png"
+		},
+		{
+			"url": "cleanGame/welcome/wm.png",
+			"type": "image",
+			"name": "wm_png"
+		},
+		{
+			"url": "cleanGame/btn/btn_close.png",
+			"type": "image",
+			"name": "btn_close_png"
+		},
+		{
+			"url": "cleanGame/btn/open_btn_sound.png",
+			"type": "image",
+			"name": "open_btn_sound_png"
+		},
+		{
+			"url": "cleanGame/btn/open_btn_sound_off.png",
+			"type": "image",
+			"name": "open_btn_sound_off_png"
+		},
+		{
+			"url": "cleanGame/btn/open_btn_st.png",
+			"type": "image",
+			"name": "open_btn_st_png"
+		},
+		{
+			"url": "cleanGame/btn/reborn_timer.png",
+			"type": "image",
+			"name": "reborn_timer_png"
+		},
+		{
+			"url": "cleanGame/btn/selet_add.png",
+			"type": "image",
+			"name": "selet_add_png"
+		},
+		{
+			"url": "cleanGame/btn/win_btn_menu.png",
+			"type": "image",
+			"name": "win_btn_menu_png"
+		},
+		{
+			"url": "cleanGame/btn/win_btn_next.png",
+			"type": "image",
+			"name": "win_btn_next_png"
+		},
+		{
+			"url": "cleanGame/btn/win_btn_retry.png",
+			"type": "image",
+			"name": "win_btn_retry_png"
+		}
+	]
+}

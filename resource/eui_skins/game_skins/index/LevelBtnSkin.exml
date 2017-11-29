@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LevelBtnSkin" width="90" height="90" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="levelBg" source="selet_g_black_png" x="0"/>
+	<e:Image id="levelPos" source="npc_avt_png" x="-2" y="-96" visible="false"/>
+	<e:Label id="levelLabel" text="1" y="18" horizontalCenter="0.5"/>
+</e:Skin>

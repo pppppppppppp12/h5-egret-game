@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WelcomeSkin" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="640" height="960" x="0" y="0" fillColor="0x29bdf6" locked="true"/>
+	<e:Image id="cloud_left" source="output_cloud_png" x="-202.27" y="234.37"/>
+	<e:Image id="sea" source="output_sea_png" x="0" y="496.01"/>
+	<e:Image id="sea_up" source="output_sea1_png" x="25.38" y="500.46" rotation="0.82"/>
+	<e:Image id="sea_down" source="output_sea2_png" x="7.45" y="566.92"/>
+	<e:Image id="beach" source="output_beach_png" x="0" y="615.28"/>
+	<e:Image id="bird1" source="birl2_png" x="284.35" y="373.67" anchorOffsetX="-5.38" anchorOffsetY="-6.15" width="47" height="38.45"/>
+	<e:Image id="cloud_right" source="could2_png" x="387.5" y="155.28"/>
+	<e:Image id="boat1" source="output_ship1_png" x="133.03" y="535.46"/>
+	<e:Image id="boat2" source="output_ship2_png" x="367.52" y="510.46"/>
+	<e:Image id="beginBtn" source="open_btn_st_png" x="319.52" y="645.46" anchorOffsetX="96" anchorOffsetY="98"/>
+	<e:Image id="mountain" source="start_dao_png" x="-21" y="76" locked="true"/>
+	<e:Group width="603.03" height="363.64" x="18" y="49.27" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="title" source="l2_png" x="69.53" y="92.06" scaleX="1" scaleY="1"/>
+		<e:Image id="fruit5" source="lm_png" x="494.54999999999995" y="224.81" rotation="10.97" anchorOffsetX="0" width="57.86" anchorOffsetY="0" height="58.19" scaleX="1" scaleY="1"/>
+		<e:Image id="fruit4" source="wm_png" x="425.38000000000005" y="207.16" scaleX="1" scaleY="1"/>
+		<e:Image id="fruit1" source="ap_png" x="11.05" y="61.44" rotation="347.98" scaleX="1" scaleY="1"/>
+		<e:Image id="fruit3" source="gp_png" x="152.97" y="31.58" anchorOffsetX="0" width="68.97" anchorOffsetY="0" height="58.82" scaleX="1" scaleY="1"/>
+		<e:Image id="fruit2" source="bb_png" x="82.15" y="11.37" anchorOffsetX="0" width="93.18" anchorOffsetY="0" height="93.18" rotation="5.51" scaleX="1" scaleY="1"/>
+		<e:Image id="bird2" source="birl_png" x="124.05" y="245.16" anchorOffsetX="0" width="91.67" anchorOffsetY="0" height="55"/>
+	</e:Group>
+	<e:Group width="242.42" height="239.39" y="734.27" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>
