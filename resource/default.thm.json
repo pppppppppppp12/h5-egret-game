@@ -29,6 +29,7 @@
     "resource/eui_skins/ToggleSwitchSkin.exml",
     "resource/eui_skins/VScrollBarSkin.exml",
     "resource/eui_skins/VSliderSkin.exml",
+    "resource/eui_skins/game_skins/game/GameSkin.exml",
     "resource/eui_skins/game_skins/index/IndexSkin.exml",
     "resource/eui_skins/game_skins/index/LevelBtnSkin.exml",
     "resource/eui_skins/game_skins/loading/LoadingSkin.exml",

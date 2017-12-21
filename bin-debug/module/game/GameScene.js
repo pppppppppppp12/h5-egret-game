@@ -13,9 +13,15 @@ var __extends = (this && this.__extends) || (function () {
 })();
 var GameScene = (function (_super) {
     __extends(GameScene, _super);
-    function GameScene() {
-        return _super.call(this) || this;
+    function GameScene(levelNum) {
+        var _this = _super.call(this) || this;
+        _this.skinName = 'gameSkin';
+        _this.levelNum = levelNum;
+        _this.addEventListener(egret.Event.ADDED_TO_STAGE, _this.addStage, _this);
+        return _this;
     }
+    GameScene.prototype.addStage = function () {
+    };
     return GameScene;
 }(eui.Component));
 __reflect(GameScene.prototype, "GameScene");

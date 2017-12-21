@@ -40,8 +40,8 @@ var SceneManager = (function () {
             SceneManager.initScene().replaceScene(index);
         });
     };
-    SceneManager.gotoGame = function () {
-        var game = new GameScene();
+    SceneManager.gotoGame = function (levelNum) {
+        var game = new GameScene(levelNum);
         SceneManager.initScene().replaceScene(game);
     };
     SceneManager.scene = null; // 全局 SceneManager

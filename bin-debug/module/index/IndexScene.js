@@ -43,16 +43,23 @@ var IndexScene = (function (_super) {
             btn.x = val.x;
             btn.y = val.y;
             _this.indexContainer.addChild(btn);
-            btn.addEventListener(egret.TouchEvent.TOUCH_BEGIN, _this.ontouchBeginEvent, btn); // 触摸点为当前对象
-            btn.addEventListener(egret.TouchEvent.TOUCH_END, _this.ontouchEndEvent, btn);
-            btn.addEventListener(egret.TouchEvent.TOUCH_CANCEL, _this.ontouchEndEvent, btn);
+            btn.addEventListener(egret.TouchEvent.TOUCH_BEGIN, _this.ontouch_begin, _this);
+            btn.addEventListener(egret.TouchEvent.TOUCH_END, _this.ontouch_end, _this);
+            btn.addEventListener(egret.TouchEvent.TOUCH_CANCEL, _this.ontouch_end, _this);
+            btn.addEventListener(egret.TouchEvent.TOUCH_TAP, _this.ontouch_tap, _this);
         });
     };
-    IndexScene.prototype.ontouchBeginEvent = function (event) {
-        this.getChildAt(0).alpha = 0.9; // this 为触摸点，this.getChildAt(0) 为按钮背景
+    IndexScene.prototype.ontouch_begin = function (event) {
+        event.currentTarget.getChildAt(0).alpha = 0.9; // event.currentTarget 为触摸点，event.currentTarget.getChildAt(0) 为按钮
     };
-    IndexScene.prototype.ontouchEndEvent = function (event) {
-        this.getChildAt(0).alpha = 1;
+    IndexScene.prototype.ontouch_end = function (event) {
+        event.currentTarget.getChildAt(0).alpha = 1;
+    };
+    IndexScene.prototype.ontouch_tap = function (event) {
+        var levelNum = event.currentTarget.levelNum;
+        if (levelNum == 1) {
+            SceneManager.gotoGame(levelNum);
+        }
     };
     return IndexScene;
 }(eui.Component));

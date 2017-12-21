@@ -52,7 +52,7 @@ var LoadingUI = (function (_super) {
         this.textField.y = 300;
         this.textField.width = 480;
         this.textField.height = 100;
-        this.textField.textAlign = "center";
+        this.textField.textAlign = 'center';
     };
     LoadingUI.prototype.setProgress = function (current, total) {
         this.textField.text = "Loading..." + current + "/" + total;
